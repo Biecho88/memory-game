@@ -19,4 +19,19 @@ body {
     border-bottom: 2px solid grey;
 }
 
+.images-line {
+    height: 150px;
+    position: relative;
+    text-align: center;
 
+}
+
+.rules-container {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rules-container2 {
+    text-align: center;
+}
