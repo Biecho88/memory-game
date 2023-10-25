@@ -45,3 +45,8 @@ body {
     line-height: 50px ;
 }
 
+.buttons {
+    width: 100%;
+    justify-content: center;
+}
+
