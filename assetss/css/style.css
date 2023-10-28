@@ -23,6 +23,7 @@ body {
     width: 100%;
     margin-left: 3px;
     margin-right: 3px;
+    height: 250px;
 }
 
 .column{
@@ -31,22 +32,23 @@ body {
 }
 
 .game-info {
-    height: 500px;
+    height: 400px;
 }
 .rules-container {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 40px;
 }
 
 .rules-container2 {
     text-align: center;
-    line-height: 50px ;
+    line-height: 70px ;
 }
 
 .buttons {
     width: 100%;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
 }
 
