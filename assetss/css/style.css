@@ -20,7 +20,7 @@ body {
 }
 
 .game-info {
-    height: 200px;
+    height: 250px;
 }
 
 .line-of-symbols {
@@ -31,8 +31,7 @@ body {
 
 .rules-container {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 20px;
 }
 
 .rules-container2 {
@@ -44,6 +43,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 30px;
 }
 
