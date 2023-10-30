@@ -19,21 +19,16 @@ body {
     border-bottom: 2px solid grey;
 }
 
-.row{
-    width: 100%;
-    margin-left: 3px;
-    margin-right: 3px;
-    height: 250px;
-}
-
-.column{
-    width: 25%;
-    display: inline-block;
-}
-
 .game-info {
-    height: 400px;
+    height: 200px;
 }
+
+.line-of-symbols {
+    font-size: 35px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .rules-container {
     text-align: center;
     margin-left: 50px;
