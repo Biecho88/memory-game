@@ -93,8 +93,8 @@ h2 {
     margin: 10px auto;
     width: max-content;
     display: grid;
-    grid-template-columns: repeat(7, 100px);
-    grid-template-rows:repeat(7, 100px) ;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows:repeat(5, 100px) ;
     gap: 16px;
 }
 
