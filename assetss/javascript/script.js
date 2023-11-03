@@ -14,7 +14,16 @@ function buildTile(emoji) {
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
+    element.setAttribute("data-revealed", "false");
 
+    element.addEventListener("click", () => {
+        if (awaitingEndOfMove) {
+            return;
+        }
+
+        element.style.background = emoji;
+    });
+ 
     return element;
 }
 // Build up tiles 
@@ -26,6 +35,7 @@ for (let i = 0; i < tileCount; i++) {
 
     emojiPicklist.splice(randomIndex, 1);
     tilesContainer.appendChild(tile);
-
+    
 
 }
+
