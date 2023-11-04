@@ -23,6 +23,12 @@ function buildTile(emoji) {
 
         element.innerHTML = emoji;
 
+        if (!activeTile) {
+            activeTile = element
+        }
+
+        console.log(activeTile)
+
     });
 
     return element;
