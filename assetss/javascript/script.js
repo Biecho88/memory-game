@@ -14,6 +14,7 @@ function buildTile(emoji) {
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
+    element.innerHTML = "emoji" ;
     element.setAttribute("data-revealed", "false");
 
     element.addEventListener("click", () => {
@@ -21,21 +22,5 @@ function buildTile(emoji) {
             return;
         }
 
-        element.style.background = emoji;
-    });
- 
-    return element;
-}
-// Build up tiles 
-
-for (let i = 0; i < tileCount; i++) {
-    const randomIndex = Math.floor(Math.random() * emojiPicklist.length);
-    const emoji = emojiPicklist[randomIndex];
-    const tile = buildTile(emoji);
-
-    emojiPicklist.splice(randomIndex, 1);
-    tilesContainer.appendChild(tile);
-    
-
-}
-
+        
+    })
