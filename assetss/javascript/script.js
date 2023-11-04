@@ -34,6 +34,10 @@ function buildTile(emoji) {
         setTimeout(() => {
             element.innerHTML = null ;
             activeTile.innerHTML = null ; 
+
+            awaitingEndOfMove = false ; 
+            activeTile = false ; 
+            
         }, 1000);
 
     });
