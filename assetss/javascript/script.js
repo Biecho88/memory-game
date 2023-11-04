@@ -24,10 +24,17 @@ function buildTile(emoji) {
         element.innerHTML = emoji;
 
         if (!activeTile) {
-            activeTile = element
+            activeTile = element ;
+
+            return ;
         }
 
-        console.log(activeTile)
+        awaitingEndOfMove = true ;
+
+        setTimeout(() => {
+            element.innerHTML = null ;
+            activeTile.innerHTML = null ; 
+        }, 1000);
 
     });
 
