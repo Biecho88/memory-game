@@ -14,7 +14,6 @@ function buildTile(emoji) {
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
-    element.innerHTML = emoji;
     element.setAttribute("data-revealed", "false");
 
     element.addEventListener("click", () => {
@@ -22,7 +21,8 @@ function buildTile(emoji) {
             return;
         }
 
-        element.style.background = emoji;
+        element.innerHTML = emoji;
+
     });
 
     return element;

@@ -100,4 +100,15 @@ h2 {
     background: black;
     cursor: pointer;
     border: 5px solid #D0D0D0;
+    text-align: center;
+    font-size: 60px ;
+}
+
+.tile ::after{
+    content:'';
+    position: absolute;
+    inset: 0;
+    background: black;
+    transition: 0.25s;
+    transform: rotateY(0deg);
 }
