@@ -14,7 +14,7 @@ function buildTile(emoji) {
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
-    element.setAttribute("data-revealed", "false");
+    
 
     element.addEventListener("click", () => {
         if (awaitingEndOfMove) {
@@ -25,6 +25,21 @@ function buildTile(emoji) {
 
         if (!activeTile) {
             activeTile = element ;
+
+            return ;
+        }
+
+        const emojiToMach = activeTile.getAttribute("data-emoji") ; 
+
+        if (emojiToMach === emoji) {
+
+            awaitingEndOfMove = false ; 
+            activeTile = null ;
+            revealedCount += 2 ; 
+
+            if(revealedCount === tileCount) {
+                alert (" You win! Refresh to play again")
+            }
 
             return ;
         }
