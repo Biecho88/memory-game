@@ -24,6 +24,7 @@ function buildTile(emoji) {
         if (
             awaitingEndOfMove
             || revealed === "true" 
+            || element === activeTile
         ) {
             return;
         }
