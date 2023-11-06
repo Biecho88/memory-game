@@ -14,10 +14,17 @@ function buildTile(emoji) {
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
+    element.setAttribute("data-revealed" , "false")
     
 
     element.addEventListener("click", () => {
-        if (awaitingEndOfMove) {
+
+        const revealed = element.getAttribute("data-revealed") ;
+
+        if (
+            awaitingEndOfMove
+            || revealed === "true" 
+        ) {
             return;
         }
 
@@ -32,6 +39,9 @@ function buildTile(emoji) {
         const emojiToMach = activeTile.getAttribute("data-emoji") ; 
 
         if (emojiToMach === emoji) {
+
+            activeTile.setAttribute("data-revealed" , "true") ; 
+            element.setAttribute("data-revealed" , "true") ; 
 
             awaitingEndOfMove = false ; 
             activeTile = null ;
