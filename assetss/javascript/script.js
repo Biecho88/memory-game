@@ -77,6 +77,7 @@ function buildTile(emoji) {
             awaitingEndOfMove = false ; 
             activeTile = null ;
             revealedCount += 2 ; 
+            movesCounter();
 
             if(revealedCount === tileCount) {
                 alert (" You win! Refresh to play again")
@@ -120,3 +121,9 @@ interval = setInterval(timeGenerator, 1000);
 //initial moves
 moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
 initializer();
+
+
+const initializer = () => {
+    result.innerText = "";
+    winCount = 0;
+}
