@@ -63,6 +63,7 @@ function buildTile(emoji) {
 
         if (!activeTile) {
             activeTile = element ;
+            movesCounter() ;
 
             return ;
         }
@@ -120,7 +121,7 @@ for (let i = 0; i < tileCount; i++) {
 interval = setInterval(timeGenerator, 1000);
 //initial moves
 moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
-initializer();
+
 
 
 const initializer = () => {
