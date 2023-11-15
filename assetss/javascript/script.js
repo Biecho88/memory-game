@@ -48,6 +48,8 @@ function buildTile(emoji) {
     
 
     element.addEventListener("click", () => {
+        //Start timer
+        interval = setInterval(timeGenerator, 1000);
 
         const revealed = element.getAttribute("data-revealed") ;
 
@@ -118,13 +120,10 @@ for (let i = 0; i < tileCount; i++) {
 
 }
 
-interval = setInterval(timeGenerator, 1000);
-//initial moves
+//initial moves count
 moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
-
-
 
 const initializer = () => {
     result.innerText = "";
     winCount = 0;
-}
+};
