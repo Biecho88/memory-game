@@ -4,6 +4,7 @@ const emojiPicklist = [...emojis, ...emojis];   // variable doubling the emoji c
 const tileCount = emojiPicklist.length;    //defining number of tiles for the game
 const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
+const startButton = document.getElementById("timer")
 
 //Initial Time
 let seconds = 0,
@@ -48,8 +49,7 @@ function buildTile(emoji) {
     
 
     element.addEventListener("click", () => {
-        //Start timer
-        interval = setInterval(timeGenerator, 1000);
+        
 
         const revealed = element.getAttribute("data-revealed") ;
 
@@ -80,7 +80,7 @@ function buildTile(emoji) {
             awaitingEndOfMove = false ; 
             activeTile = null ;
             revealedCount += 2 ; 
-            movesCounter();
+            
 
             if(revealedCount === tileCount) {
                 alert (" You win! Refresh to play again")
@@ -120,8 +120,15 @@ for (let i = 0; i < tileCount; i++) {
 
 }
 
-//initial moves count
-moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+startButton.addEventListener("click", () => {
+    movesCount = 0;
+    seconds = 0;
+    minutes = 0;
+    //Start timer
+    interval = setInterval(timeGenerator, 1000);
+    //initial moves count
+    moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+})
 
 const initializer = () => {
     result.innerText = "";
