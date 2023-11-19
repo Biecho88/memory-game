@@ -95,3 +95,11 @@ body {
     transform: rotateY(0deg);
 }
 
+.copyrights {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: x-large;
+
+}

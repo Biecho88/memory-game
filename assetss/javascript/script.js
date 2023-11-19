@@ -120,11 +120,10 @@ startButton.addEventListener("click", () => {
 
 })
 
-//Stop game
+//Reset the game
 resetButton.addEventListener("click", (stopGame = () => {
 
-
-    location.reload()
+    location.reload(buildTile)
 
 })
 );
