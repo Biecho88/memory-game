@@ -5,22 +5,24 @@ const tileCount = emojiPicklist.length;    //defining number of tiles for the ga
 const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
 const startButton = document.getElementById("timer")
+const resetButton = document.getElementById("reset")
 
 //Initial Time
 let seconds = 0,
     minutes = 0;
-//Initial moves and win count
-let movesCount = 0,
-    winCount = 0;
+
+//Initial moves
+let movesCount = 0;
+
 //For timer
 const timeGenerator = () => {
     seconds += 1;
-    //minutes logic
+    //Minutes logic
     if (seconds >= 60) {
         minutes += 1;
         seconds = 0;
     }
-    //format time before displaying
+    //Format time before displaying
     let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
     let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
     timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
@@ -106,6 +108,28 @@ function buildTile(emoji) {
 }
 
 
+
+startButton.addEventListener("click", () => {
+    movesCount = 0;
+    seconds = 0;
+    minutes = 0;
+    //Start timer
+    interval = setInterval(timeGenerator, 1000);
+    //initial moves count
+    moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+
+})
+
+//Stop game
+resetButton.addEventListener("click", (stopGame = () => {
+
+
+    location.reload()
+
+})
+);
+
+
 // Build up tiles 
 
 for (let i = 0; i < tileCount; i++) {
@@ -120,17 +144,3 @@ for (let i = 0; i < tileCount; i++) {
 
 }
 
-startButton.addEventListener("click", () => {
-    movesCount = 0;
-    seconds = 0;
-    minutes = 0;
-    //Start timer
-    interval = setInterval(timeGenerator, 1000);
-    //initial moves count
-    moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
-})
-
-const initializer = () => {
-    result.innerText = "";
-    winCount = 0;
-};
