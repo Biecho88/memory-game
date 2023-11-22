@@ -144,6 +144,14 @@ body {
     }
 }
 
+
+@media screen and (max-width: 1140px) {
+
+    .line-of-symbols {
+        font-size: 27px;
+    }
+    
+}
 @media screen and (max-width: 1025px) {
     .tiles {
         margin: 5px auto;
@@ -188,8 +196,8 @@ body {
 @media screen and (max-width: 770px) {
     .tiles {
         margin: 5px auto;
-        grid-template-columns: repeat(8, 70px);
-        grid-template-rows: repeat(5, 70px);
+        grid-template-columns: repeat(8, 60px);
+        grid-template-rows: repeat(5, 60px);
         gap: 7px;
     }
 
