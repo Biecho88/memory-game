@@ -115,6 +115,158 @@ body {
 /***********************   Responsive design   ********************************/ 
 
 
+@media screen and (max-width: 1440px) {
+    
+    .rules-container {
+        font-size: 130%;
+    }
+
+    .rules-container2 {
+        font-size: 130%;
+    }
+
+    .line-of-symbols {
+        font-size: 30px;
+    }
+
+    .container {
+        padding: 5px 5px;
+        width: 95%;
+    }
+
+    .stats-container span {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .copyrights {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .tiles {
+        margin: 5px auto;
+        grid-template-columns: repeat(8, 85px);
+        grid-template-rows: repeat(5, 85px);
+        gap: 7px;
+    }
+
+    .tile {
+        border: 3px solid #D0D0D0;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .line-of-symbols {
+        font-size: 25px;
+    }
+
+    .rules-container {
+        font-size: larger;
+    }
+
+    .rules-container2 {
+        font-size: larger;
+    }
+
+    .container {
+        padding: 5px 5px;
+        width: 95%;
+    }
+
+    .stats-container span {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .copyrights {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .tiles {
+        margin: 5px auto;
+        grid-template-columns: repeat(8, 70px);
+        grid-template-rows: repeat(5, 70px);
+        gap: 7px;
+    }
+
+    .tile {
+        border: 3px solid #D0D0D0;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .line-of-symbols {
+        font-size: 20px;
+    }
+
+    .rules-container {
+        font-size: large;
+    }
+
+    .rules-container2 {
+        font-size: large;
+    }
+
+    .container {
+        padding: 5px 5px;
+        width: 95%;
+    }
+
+    .stats-container span {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .copyrights {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .tiles {
+        margin: 3px auto;
+        grid-template-columns: repeat(8, 45px);
+        grid-template-rows: repeat(5, 45px);
+        gap: 5px;
+    }
+
+    .tile {
+        border: 2px solid #D0D0D0;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .line-of-symbols {
+        font-size: 11px;
+    }
+
+    .rules-container {
+        font-size: small;
+    }
+
+    .rules-container2 {
+        font-size: small;
+    }
+
+    .container {
+        padding: 5px 5px;
+        width: 95%;
+    }
+
+    .stats-container span {
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .copyrights {
+        font-size: large;
+    }
+}
+
 @media screen and (max-width:380px) {
     .tiles {
         margin: 3px auto;
@@ -148,6 +300,11 @@ body {
 
     .copyrights {
         font-size: medium;
+    }
+
+    .stats-container span{
+        font-size: small;
+        font-weight: 100;
     }
 }
 
