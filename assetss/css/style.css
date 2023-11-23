@@ -253,6 +253,16 @@ body {
         font-size: large;
     }
 }
+
+@media screen and (max-width: 435px) {
+
+    .tiles {
+        margin: 3px auto;
+        grid-template-columns: repeat(8, 42px);
+        grid-template-rows: repeat(5, 42px);
+        gap: 5px;
+    }
+}
 @media screen and (max-width: 425px) {
     .tiles {
         margin: 3px auto;
