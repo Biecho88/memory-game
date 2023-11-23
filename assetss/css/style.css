@@ -163,7 +163,7 @@ body {
     .tile {
         border: 3px solid #D0D0D0;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .line-of-symbols {
@@ -241,7 +241,7 @@ body {
         }
     
 }    
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 515px) {
     .tiles {
         margin: 5px auto;
         grid-template-columns: repeat(8, 45px);
@@ -251,6 +251,10 @@ body {
     
     .copyrights {
         font-size: large;
+    }
+
+    .tile {
+        font-size: 27px;
     }
 }
 
