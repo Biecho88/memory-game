@@ -262,6 +262,10 @@ body {
         grid-template-rows: repeat(5, 42px);
         gap: 5px;
     }
+
+    .tile{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 425px) {
     .tiles {
