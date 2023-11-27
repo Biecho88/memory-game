@@ -355,7 +355,7 @@ body {
 
 @media screen and (max-width:280px) {
     .tiles {
-        margin: 2 auto;
+        margin: 2px;
         grid-template-columns: repeat(8, 25px);
         grid-template-rows: repeat(5, 25px);
         gap: 3px;
