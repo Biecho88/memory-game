@@ -1,7 +1,15 @@
-const tilesContainer = document.querySelector(".tiles");    // variable targeting div with class .tiles
-const emojis = ["&#x1F412", "&#x1F41E", "&#x1F427", "&#x1F438", "&#x1F980", "&#x1F984", "&#x1F98B", "&#x1F99E", "&#x1F9A9", "&#x1F436", "&#x1F680", "&#x1F681", "&#x1F682", "&#x1F692", "&#x1F693", "&#x1F69C", "&#x1F6A2", "&#x1F60D", "&#x1F621", "&#x1F608"];    // array list with 20 emoji's
-const emojiPicklist = [...emojis, ...emojis];   // variable doubling the emoji count as each emoji is needed twice
-const tileCount = emojiPicklist.length;    //defining number of tiles for the game
+// variable targeting div with class .tiles
+const tilesContainer = document.querySelector(".tiles");
+
+// array list with 20 emoji's
+const emojis = ["&#x1F412", "&#x1F41E", "&#x1F427", "&#x1F438", "&#x1F980", "&#x1F984", "&#x1F98B", "&#x1F99E", "&#x1F9A9", "&#x1F436", "&#x1F680", "&#x1F681", "&#x1F682", "&#x1F692", "&#x1F693", "&#x1F69C", "&#x1F6A2", "&#x1F60D", "&#x1F621", "&#x1F608"];
+
+// variable doubling the emoji count as each emoji is needed twice
+const emojiPicklist = [...emojis, ...emojis];
+
+//defining number of tiles for the game
+const tileCount = emojiPicklist.length;
+
 const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
 const startButton = document.getElementById("timer");
@@ -23,8 +31,8 @@ const timeGenerator = () => {
         seconds = 0;
     }
     //Format time before displaying
-    let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
-    let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
+    let secondsValue = (seconds < 10 ? `0${seconds}` : seconds);
+    let minutesValue = (minutes < 10 ? `0${minutes}` : minutes);
     timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
 };
 
@@ -37,10 +45,13 @@ const movesCounter = () => {
 
 
 // Variables indicating current state of the game
+// Number of revealed tiles is zero when starting the game
+let revealedCount = 0;
 
-let revealedCount = 0;     // Number of revealed tiles is zero when starting the game
-let activeTile = null;     // Refers to the active tile user clicked on and thinking to  which second tile to click
-let awaitingEndOfMove = false;     // Refers to player waiting for tiles to flip back over again when false 
+// Refers to the active tile user clicked on and thinking to  which second tile to click
+let activeTile = null;
+// Refers to player waiting for tiles to flip back over again when false
+let awaitingEndOfMove = false;
 
 function buildTile(emoji) {
     const element = document.createElement("div");
@@ -128,7 +139,7 @@ resetButton.addEventListener("click", (stopGame = () => {
 
 // Build up tiles
 
-for (let i = 0; i < tileCount; i++) {
+for(let i = 0; i < tileCount; i++) {
 
     const randomIndex = Math.floor(Math.random() * emojiPicklist.length);
     const emoji = emojiPicklist[randomIndex];
