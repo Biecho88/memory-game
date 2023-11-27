@@ -4,11 +4,11 @@ const emojiPicklist = [...emojis, ...emojis];   // variable doubling the emoji c
 const tileCount = emojiPicklist.length;    //defining number of tiles for the game
 const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
-const startButton = document.getElementById("timer")
-const resetButton = document.getElementById("reset")
+const startButton = document.getElementById("timer");
+const resetButton = document.getElementById("reset");
 
 //Initial Time
-let seconds = 0,
+let seconds = 0;
     minutes = 0;
 
 //Initial moves
@@ -47,17 +47,15 @@ function buildTile(emoji) {
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
-    element.setAttribute("data-revealed" , "false")
-    
+    element.setAttribute("data-revealed" , "false");
 
     element.addEventListener("click", () => {
-        
 
         const revealed = element.getAttribute("data-revealed") ;
 
         if (
             awaitingEndOfMove
-            || revealed === "true" 
+            || revealed === "true"
             || element === activeTile
         ) {
             return;
@@ -72,20 +70,19 @@ function buildTile(emoji) {
             return ;
         }
 
-        const emojiToMach = activeTile.getAttribute("data-emoji") ; 
+        const emojiToMach = activeTile.getAttribute("data-emoji") ;
 
         if (emojiToMach === emoji) {
 
-            activeTile.setAttribute("data-revealed" , "true") ; 
-            element.setAttribute("data-revealed" , "true") ; 
+            activeTile.setAttribute("data-revealed" , "true") ;
+            element.setAttribute("data-revealed" , "true") ;
 
-            awaitingEndOfMove = false ; 
+            awaitingEndOfMove = false ;
             activeTile = null ;
-            revealedCount += 2 ; 
-            
+            revealedCount += 2 ;
 
             if(revealedCount === tileCount) {
-                alert (" You win! Refresh to play again")
+                alert (" You win! Refresh to play again");
             }
 
             return ;
@@ -95,11 +92,11 @@ function buildTile(emoji) {
 
         setTimeout(() => {
             element.innerHTML = null ;
-            activeTile.innerHTML = null ; 
+            activeTile.innerHTML = null ;
 
-            awaitingEndOfMove = false ; 
-            activeTile = false ; 
-            
+            awaitingEndOfMove = false ;
+            activeTile = false ;
+
         }, 1000);
 
     });
@@ -118,18 +115,18 @@ startButton.addEventListener("click", () => {
     //initial moves count
     moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
 
-})
+});
 
 //Reset the game
 resetButton.addEventListener("click", (stopGame = () => {
 
-    location.reload(buildTile)
+    location.reload(buildTile);
 
 })
 );
 
 
-// Build up tiles 
+// Build up tiles
 
 for (let i = 0; i < tileCount; i++) {
 
