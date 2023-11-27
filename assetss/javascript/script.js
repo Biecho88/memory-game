@@ -93,7 +93,7 @@ function buildTile(emoji) {
             revealedCount += 2 ;
 
             if(revealedCount === tileCount) {
-                alert (" You win! Refresh to play again");
+                alert (" You have found them all!! Congratulations! Refresh page or click reset button to play again :)");
             }
 
             return ;
@@ -147,7 +147,6 @@ for(let i = 0; i < tileCount; i++) {
 
     emojiPicklist.splice(randomIndex, 1);
     tilesContainer.appendChild(tile);
-
 
 }
 
