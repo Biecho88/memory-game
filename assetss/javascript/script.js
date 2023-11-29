@@ -7,6 +7,8 @@ const emojis = ["&#x1F412", "&#x1F41E", "&#x1F427", "&#x1F438", "&#x1F980", "&#x
 // variable doubling the emoji count as each emoji is needed twice
 const emojiPicklist = [...emojis, ...emojis];
 
+console.log(emojiPicklist)
+
 //defining number of tiles for the game
 const tileCount = emojiPicklist.length;
 
@@ -54,12 +56,15 @@ let activeTile = null;
 let awaitingEndOfMove = false;
 
 function buildTile(emoji) {
+    
+    //Creates div in document body
     const element = document.createElement("div");
 
     element.classList.add("tile");
     element.setAttribute("data-emoji", emoji);
     element.setAttribute("data-revealed" , "false");
-
+    
+    //Adds logic to the game
     element.addEventListener("click", () => {
 
         const revealed = element.getAttribute("data-revealed") ;
@@ -140,12 +145,16 @@ resetButton.addEventListener("click", (stopGame = () => {
 // Build up tiles
 
 for(let i = 0; i < tileCount; i++) {
-
+    
+    //Picks emoji randomly from emojiPicklist
     const randomIndex = Math.floor(Math.random() * emojiPicklist.length);
     const emoji = emojiPicklist[randomIndex];
     const tile = buildTile(emoji);
 
+    //Avoids picking same emoji more than once
     emojiPicklist.splice(randomIndex, 1);
+
+    //Adding tile class div in tiles class div in document body
     tilesContainer.appendChild(tile);
 
 }
