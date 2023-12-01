@@ -42,8 +42,37 @@ This is the website where everyone without exception can relax ans spend few min
 
     Emojis been used as decoration to main webpage and as a image behind cards for purpose of the game.
 
-- #### Languages used 
+## Languages used 
 
   - [HTML](https://en.wikipedia.org/wiki/HTML)
   - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
   - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+## Frameworks, Libraries & Programs used
+
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+2. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+3. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+4. [Pixabay](https://pixabay.com/)
+    - Pixabay Was used for images for the start of project but then it was changed.
+6. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap is used to assist with the responsiveness and styling of the website.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [Main page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
+- [CSS test results by text input](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
+  
+
+### Testing User Stories from User Experience (UX) Section
+
+ 1. As a First Time Visitor, I want to easily understand rules of the game.
+
+            1. Upon entering the site, Users are welcomed with line of emoji image for visual experience and text which explains rules of the game.
+            2. The User has tw
+
