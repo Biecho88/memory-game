@@ -117,3 +117,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 3. As a frequent user, I want to beat my records
 
             1. The User can return to the game and try to solve it in either quicer time or fewer ammount of moves.
+
+### Further testing
+
+- The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 12 Pro Max & Samsung Galaxy S20
+- A large amount of testing was done to ensure that game runs doods and there is no bugs.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Screenshots from testing
+
+<h2 align="center"><img src="https://i.ibb.co/F6vcfpg/Emoji-Test.png" alt="Array list test" border="0"></h2>
+
+<h2 align="center"><img src="https://i.ibb.co/p3bbzm1/Emoji-List-Test.png" alt="List of emoji test" border="0"></h2>
+
+<h2 align="center"><img src="" alt="List of emoji test" border="0"></h2>

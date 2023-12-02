@@ -7,7 +7,6 @@ const emojis = ["&#x1F412", "&#x1F41E", "&#x1F427", "&#x1F438", "&#x1F980", "&#x
 // variable doubling the emoji count as each emoji is needed twice
 const emojiPicklist = [...emojis, ...emojis];
 
-console.log(emojiPicklist)
 
 //defining number of tiles for the game
 const tileCount = emojiPicklist.length;
@@ -151,6 +150,7 @@ for(let i = 0; i < tileCount; i++) {
     const emoji = emojiPicklist[randomIndex];
     const tile = buildTile(emoji);
 
+    console.log(emoji)
     //Avoids picking same emoji more than once
     emojiPicklist.splice(randomIndex, 1);
 
