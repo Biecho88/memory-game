@@ -133,4 +133,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <h2 align="center"><img src="https://i.ibb.co/1X60s0C/Build-Tile-Through-DOM.png" alt="List of emoji test" border="0"></h2>
 
-<h2 align="center"><img src="https://i.ibb.co/pQmCt3z/Data-Revealed.png" alt="Data-Revealed" alt="DataRevealed test" border="0"></h2>
+<h2 align="center"><img src="https://i.ibb.co/pQmCt3z/Data-Revealed.png" alt="DataRevealed test" border="0"></h2>
+
+<h2 align="center"><img src="https://i.ibb.co/bBqMRW1/Paired-Tiles-Stay-Revealed.png" alt="Paired tiles stay revealed" border="0"></h2>
+
+<h2 align="center"><img src="https://i.ibb.co/HTLSBhb/End-Of-Game.png" alt="End of game" border="0"></h2>
+
+<h2 align="center"><img src="https://i.ibb.co/wJsBVJ9/received-668982745078365.jpg" alt="Emojis to big for mobile phone screen" border="0"></h2>
