@@ -82,6 +82,8 @@ function buildTile(emoji) {
             activeTile = element ;
             movesCounter() ;
 
+            console.log(activeTile)
+
             return ;
         }
 
@@ -150,7 +152,6 @@ for(let i = 0; i < tileCount; i++) {
     const emoji = emojiPicklist[randomIndex];
     const tile = buildTile(emoji);
 
-    console.log(emoji)
     //Avoids picking same emoji more than once
     emojiPicklist.splice(randomIndex, 1);
 
