@@ -63,8 +63,8 @@ This is the website where everyone without exception can relax ans spend few min
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [Main page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
-- [CSS test results by text input](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
+- [Main page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F)
+- [CSS test results by text input](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
   
 ### Testing User Stories from User Experience (UX) Section
 
