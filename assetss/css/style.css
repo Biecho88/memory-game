@@ -114,6 +114,18 @@ body {
 
 /***********************   Responsive design   ********************************/ 
 
+/***********************   Fixed move count and timmer overlaping with text after mentor meeting   ********************************/
+@media screen and (max-width: 3000px) {
+
+    .rules-container {
+        font-size: 130%;
+    }
+
+    .rules-container2 {
+        font-size: 130%;
+    }
+}
+/***********************   PC and Laptops responsivnes  ********************************/
 @media screen and (max-width: 2000px) {
 
     .rules-container {
@@ -201,7 +213,7 @@ body {
         font-size: x-large;
     }
 }
-
+/***********************   Tablet devices responsivnes   ********************************/
 @media screen and (max-width: 770px) {
     .tiles {
         margin: 5px auto;
@@ -266,7 +278,7 @@ body {
         font-size: 27px;
     }
 }
-
+/***********************   Mobile devices responsivnes   ********************************/
 @media screen and (max-width: 435px) {
 
     .tiles {

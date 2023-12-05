@@ -7,7 +7,6 @@ const emojis = ["&#x1F412", "&#x1F41E", "&#x1F427", "&#x1F438", "&#x1F980", "&#x
 // variable doubling the emoji count as each emoji is needed twice
 const emojiPicklist = [...emojis, ...emojis];
 
-
 //defining number of tiles for the game
 const tileCount = emojiPicklist.length;
 
@@ -42,8 +41,6 @@ const movesCounter = () => {
     movesCount += 1;
     moves.innerHTML = `<span>Moves:</span>${movesCount}`;
 };
-
-
 
 // Variables indicating current state of the game
 // Number of revealed tiles is zero when starting the game
@@ -121,8 +118,6 @@ function buildTile(emoji) {
     return element;
 }
 
-
-
 startButton.addEventListener("click", () => {
     movesCount = 0;
     seconds = 0;
@@ -141,7 +136,6 @@ resetButton.addEventListener("click", (stopGame = () => {
 
 })
 );
-
 
 // Build up tiles
 

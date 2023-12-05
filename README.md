@@ -50,15 +50,13 @@ This is the website where everyone without exception can relax ans spend few min
 
 ## Frameworks, Libraries & Programs used
 
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-2. [Git](https://git-scm.com/)
+1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-3. [GitHub:](https://github.com/)
+2. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-4. [Pixabay](https://pixabay.com/)
+3. [Pixabay](https://pixabay.com/)
     - Pixabay Was used for images for the start of project but then it was changed.
-5. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+4. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap is used to assist with the responsiveness and styling of the website.
 
 ## Testing
@@ -154,6 +152,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 #### One of the friends test which shows emojis too big for the tile.
 
 <h2 align="center"><img src="https://i.ibb.co/wJsBVJ9/received-668982745078365.jpg" alt="Emojis to big for mobile phone screen" border="0"></h2>
+
+#### Timer starts once START button is clicked
+
+<h2 align="center"><img src="https://i.ibb.co/g4tGgPR/Timer-Check.png" alt="TimerCheck" border="0"></h2>
 
 ### Known Bugs
 
