@@ -4,7 +4,7 @@
 
 <h2 align="center"><img src="https://i.ibb.co/Ltrm3Yd/Memory-Game.png" alt="Moja-pierwsza-strona" border="0"></h2>
 
-This is the website where everyone without exception can relax ans spend few minutes or even hours plaing Memory card game.
+This is the website where everyone without exception can relax and spend few minutes or even hours playing memory card game.
 
 # User experience (UX)
 
@@ -18,15 +18,15 @@ This is the website where everyone without exception can relax ans spend few min
 
 - #### Returning visitor goals
 
-  1. As a returning visitor, I want to find all emojis in shorter time.
+  1. As a returning visitor, I want to find all emojis in shortest time.
   2. As a returning visitor, I want to  find all emojis with fewer amount of moves.
-  3. As a returning visitor, I want to try different tactics when finding pairs
+  3. As a returning visitor, I want to try different tactics when finding pairs.
 
 - #### Frequent User Goals
 
   1. As a frequent user, I want to check if the new features been added.
-  2. As a frequent user, I want to check if game rules changed
-  3. As a frequent user, I want to beat my records
+  2. As a frequent user, I want to check if game rules changed.
+  3. As a frequent user, I want to beat my records.
 
 - ## *Design*
 
@@ -36,11 +36,11 @@ This is the website where everyone without exception can relax ans spend few min
 
 - #### Typography
   
-    The Monospace font is the main font used throughout the whole website with sans-serif as the fall back font in case for any reason the font isn't being importer into the sire correctly.
+    The Monospace font is the main font used throughout the whole website with sans-serif as the fall back font in case for any reason the font isn't being imported into the site correctly.
 
 - #### Imagery
 
-    Emojis been used as decoration to main webpage and as a image behind cards for purpose of the game.
+    Emoji been used as decoration to main webpage and as a image behind cards for purpose of the game.
 
 ## Languages used
 
@@ -73,9 +73,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  1. As a First Time Visitor, I want to easily understand rules of the game.
 
             1. Upon entering the site, Users are welcomed with line of emoji image for visual experience and text which explains rules of the game.
-            2. The User has to press start button to start the timer and begin the game
+            2. The User have to press the start button to start the timer and begin the game
 
- 2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+ 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
             1.The site has been designed to be fluid and never to entrap the user. Game container stands out from visual design of the rest of the page due to background used.
             2.Buttos are clearly visible due to colour contrast used.
