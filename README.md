@@ -18,7 +18,7 @@ This is the website where everyone without exception can relax and spend few min
 
 - #### Returning visitor goals
 
-  1. As a returning visitor, I want to find all emojis in shortest time.
+  1. As a returning visitor, I want to find all emojis in the quickest time.
   2. As a returning visitor, I want to  find all emojis with fewer amount of moves.
   3. As a returning visitor, I want to try different tactics when finding pairs.
 
@@ -61,7 +61,7 @@ This is the website where everyone without exception can relax and spend few min
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there are no syntax errors in the project.
 
 - [Main page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F)
 - [CSS test results by text input](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
@@ -70,37 +70,37 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - #### First time visitor goals
 
- 1. As a First Time Visitor, I want to easily understand rules of the game.
+ 1. As a First Time Visitor, I want to easly understand rules of the game.
 
             1. Upon entering the site, Users are welcomed with line of emoji image for visual experience and text which explains rules of the game.
-            2. The User have to press the start button to start the timer and begin the game
+            2. The User have to press the start button to start the timer and begin the game.
 
- 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+ 2. As a First Time Visitor, I want to be able to easly navigate throughout the site to find content.
 
-            1.The site has been designed to be fluid and never to entrap the user. Game container stands out from visual design of the rest of the page due to background used.
+            1.The site has been designed to be fluid and never to entrap the user. Game container stands out from  the rest of the page due to background used.
             2.Buttos are clearly visible due to colour contrast used.
 
  3. As a First time visitor, I want to be able to start the game and reset when needed.
 
-            1.User has time to familirase himself with page and rules, game strrts when user press start button.
-            2.Reset button is places next to start button which allows user to reset the game every time user needs to do so.
+            1.User has time to familiarise himself with page and rules, game starts when user press the start button.
+            2.The reset button is placed next to the start button which allows user to reset the game every time user needs to do so.
 
 - #### Returning visitor goals
 
- 1. As a returning visitor, I want to find all emojis in shorter time.
+ 1. As a returning visitor, I want to find all emojis in quickest time.
 
-            1. User is able to revel cards and find emojis behind. Matched pairs stay revelead and failure to maych results in cards being turn back in 1 secon time.
-            2. User is able to use different technics and creativnes to reveal cards in the shortest time.
+            1. User is able to reveal cards and find emojis behind. Matched pairs stay revealed and failure to match results in cards being turn back in 1 second time.
+            2. User is able to use different technics and creativeness to reveal cards in the quickest time.
 
  2. As a returning visitor, I want to  find all emojis with fewer amount of moves.
 
-            1. User is able to revel cards and find emojis behind. Matched pairs stay revelead and failure to maych results in cards being turn back in 1 secon time.
-            2. User is able to use different technics and creativnes to reveal cards in the fewer ammount of moves. 
+            1. User is able to revel cards and find emojis behind. Matched pairs stay revealed and failure to match results in cards being turn back in 1 second time.
+            2. User is able to use different technics and creativeness to reveal cards in the fewer ammount of moves. 
 
  3. As a returning visitor, I want to try different tactics when finding pairs
 
-            1. The way, sequence and turns of revealing cards and only depending on users decisions.
-            2. USer decids which card to revel next.
+            1. The way, sequence and turns of revealing cards only depending on users decisions.
+            2. User decides which card to reveal next.
 
 - #### Frequent User Goals
 
@@ -110,11 +110,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 2. As a frequent user, I want to check if game rules changed
 
-            1. The User would be informed in game rules section of any changes mafd to the game
+            1. The User would be informed in game rules section of any changes made to the game
 
 3. As a frequent user, I want to beat my records
 
-            1. The User can return to the game and try to solve it in either quicer time or fewer ammount of moves.
+            1. The User can return to the game and try to solve it in either quicker time or fewer ammount of moves.
 
 ### Further testing
 
@@ -161,7 +161,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - User can start the game without starting the timer. Move counter still works this way.
   
-- Time dosn't stop when the game is finished.
+- Time don't stop when the game is finished.
 
 ## Deployment
 
@@ -218,7 +218,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
-- My Mentor for continuous helpful feedback.
+- My Mentor for helpful feedback.
 
 - Tutor support at Code Institute for their support.
 
