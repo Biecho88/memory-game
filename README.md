@@ -13,13 +13,13 @@ This is the website where everyone without exception can relax and spend a few m
 - #### First time visitor
 
   1. As a first time visitor, I want to find all pairs behind the cards.
-  2. As a first time visitor, I want  to be able to easily navigate throughout the site to find content.
+  2. As a first time visitor, I want to be able to easily navigate through the site to find content.
   3. As a first time visitor, I want to be able to start the game and reset when needed.
 
 - #### Returning visitor goals
 
   1. As a returning visitor, I want to find all emojis in the quickest time.
-  2. As a returning visitor, I want to  find all emojis with fewer amount of moves.
+  2. As a returning visitor, I want to find all emojis with fewer amount of moves.
   3. As a returning visitor, I want to try different tactics when finding pairs.
 
 - #### Frequent User Goals
@@ -40,7 +40,7 @@ This is the website where everyone without exception can relax and spend a few m
 
 - #### Imagery
 
-    Emoji have been used as decoration on the main webpage and as an image behind cards for the purpose of the game.
+    Emojis have been used as decoration on the main webpage and as an image behind cards for the game.
 
 ## Languages used
 
@@ -75,27 +75,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
             1. Upon entering the site, Users are welcomed with a line of emoji images for visual experience and text that explains the rules of the game.
             2. The User has to press the start button to start the timer and begin the game.
 
- 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+ 2. As a First Time Visitor, I want to be able to easily navigate through the site to find content.
 
-            1. The site has been designed to be fluid and never to entrap the user. Game container stands out from the rest of the page due to the background used.
-            2. Buttos are visible due to color contrast used.
+            1. The site has been designed to be fluid and never to entrap the user. The game container stands out from the rest of the page due to the background used.
+            2. Buttons are visible due to the color contrast used.
 
  3. As a First time visitor, I want to be able to start the game and reset when needed.
 
-            1. User has time to familiarise himself with the page and rules, the game starts when the user pressse the start button.
+            1. The user has time to familiarise himself with the page and rules, the game starts when the user clicks the start button.
             2. The reset button is placed next to the start button which allows the user to reset the game every time the user needs to do so.
 
 - #### Returning visitor goals
 
  1. As a returning visitor, I want to find all emojis in the quickest time.
 
-            1. User can reveal cards and find emojis behind them. Matched pairs stay revealed and failure to match results in cards being turned back in 1 second time.
-            2. User can use different techniques and creativity to reveal cards in the quickest time.
+            1. The user can reveal cards and find emojis behind them. Matched pairs stay revealed and failure to match results in cards being turned back in 1 second time.
+            2. The user can use different techniques and creativity to reveal cards in the quickest time.
 
- 2. As a returning visitor, I want to  find all emojis with fewer amount of moves.
+ 2. As a returning visitor, I want to find all emojis with fewer amount of moves.
 
-            1. User can reveal cards and find emojis behind them. Matched pairs stay revealed and failure to match results in cards being turned back in 1 second time.
-            2. User can use different techniques and creativity to reveal cards in the least amount of moves. 
+            1. The user can reveal cards and find emojis behind them. Matched pairs stay revealed and failure to match results in cards being turned back in 1 second time.
+            2. The user can use different techniques and creativity to reveal cards in the least amount of moves. 
 
  3. As a returning visitor, I want to try different tactics when finding pairs
 
@@ -125,7 +125,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Screenshots from testing
 
-#### Tested if array with emojis works correctly.
+#### Tested if the array with emojis works correctly.
 
 <h2 align="center"><img src="https://i.ibb.co/F6vcfpg/Emoji-Test.png" alt="Array list test" border="0"></h2>
 
