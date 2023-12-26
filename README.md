@@ -59,6 +59,38 @@ This is the website where everyone without exception can relax and spend a few m
 4. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap is used to assist with the responsiveness and styling of the website.
 
+# Manual and Automotion testing
+
+## Manual testing explanation
+
+Manual testing is the process in which QA analysts execute tests one-by-one in an individual manner. The purpose of manual testing is to catch bugs and feature issues before a software application goes live.
+
+## Automoted testing explanation
+
+Automated testing is the process in which testers utilize tools and scripts to automate testing efforts.
+
+## Difference between Manual and Automoted testing
+
+There is a key difference between manual testing and automation testing. In manual testing, a human performs the tests step by step, without test scripts. In automated testing, tests are executed automatically via test automation frameworks, along with other tools and software. That means automated testing is faster than manual testing.
+
+## Why use manual testing 
+
+A biggest pro of manual testing over automation or continuous testing is its focused attention. When a tester is manually creating and executing tests, there is more ability to handle complex and nuanced test scenarios.
+
+## Why use automated testing
+
+The biggest pro of automation testing over manual testing is that it allows you to do more testing in less time. It increases productivity and expands how much you can test.
+
+## According to the ISTQB (International Software Testing Qualifications Board), the seven principles of software testing are:
+
+    1. Testing shows the presence of defects
+    2. Exhaustive testing is impossible
+    3. Early testing
+    4. Defect clustering
+    5. Pesticide paradox
+    6. Testing is context dependent
+    7. Absence-of-errors fallacy
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -125,31 +157,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Screenshots from testing
 
-#### Tested if the array with emojis works correctly.
+#### Tested if the array with emojis works correctly
 
 <h2 align="center"><img src="https://i.ibb.co/F6vcfpg/Emoji-Test.png" alt="Array list test" border="0"></h2>
 
-#### Tested if console logs list of emoji correctly.
+#### Tested if console logs list of emoji correctly
 
 <h2 align="center"><img src="https://i.ibb.co/p3bbzm1/Emoji-List-Test.png" alt="List of emoji test" border="0"></h2>
 
-#### Manipulated DOM to build tiles test.
+#### Manipulated DOM to build tiles test
 
 <h2 align="center"><img src="https://i.ibb.co/1X60s0C/Build-Tile-Through-DOM.png" alt="Build tile through the DOM" border="0"></h2>
 
-#### Data revealed test.
+#### Data revealed test
 
 <h2 align="center"><img src="https://i.ibb.co/pQmCt3z/Data-Revealed.png" alt="DataRevealed test" border="0"></h2>
 
-#### Tested if paired tiles stay revealed.
+#### Tested if paired tiles stay revealed
 
 <h2 align="center"><img src="https://i.ibb.co/bBqMRW1/Paired-Tiles-Stay-Revealed.png" alt="Paired tiles stay revealed" border="0"></h2>
 
-#### Massage at the end of the game.
+#### Massage at the end of the game
 
 <h2 align="center"><img src="https://i.ibb.co/HTLSBhb/End-Of-Game.png" alt="End of game" border="0"></h2>
 
-#### One of the friends tests shows emojis too big for the tile.
+#### One of the friends tests shows emojis too big for the tile
 
 <h2 align="center"><img src="https://i.ibb.co/wJsBVJ9/received-668982745078365.jpg" alt="Emojis to big for mobile phone screen" border="0"></h2>
 
