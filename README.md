@@ -59,44 +59,51 @@ This is the website where everyone without exception can relax and spend a few m
 4. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap is used to assist with the responsiveness and styling of the website.
 
-# Manual and Automotion testing
+# Manual and Automation testing
 
 ## Manual testing explanation
 
-Manual testing is the process in which QA analysts execute tests one-by-one in an individual manner. The purpose of manual testing is to catch bugs and feature issues before a software application goes live.
+Manual testing is the process in which quality assurance analysts execute tests one-by-one in an individual manner. The purpose of manual testing is to catch bugs and feature issues before a software application goes live.
 
-## Automoted testing explanation
+## Automated testing explanation
 
 Automated testing is the process in which testers utilize tools and scripts to automate testing efforts.
 
-## Difference between Manual and Automoted testing
+## Difference between Manual and Automated Testing
 
 There is a key difference between manual testing and automation testing. In manual testing, a human performs the tests step by step, without test scripts. In automated testing, tests are executed automatically via test automation frameworks, along with other tools and software. That means automated testing is faster than manual testing.
 
-## Why use manual testing 
+## Why use manual testing
 
-A biggest pro of manual testing over automation or continuous testing is its focused attention. When a tester is manually creating and executing tests, there is more ability to handle complex and nuanced test scenarios.
+The biggest pro of manual testing over automation or continuous testing is its focused attention. When a tester is manually creating and executing tests, there is more ability to handle complex and nuanced test scenarios.
 
 ## Why use automated testing
 
 The biggest pro of automation testing over manual testing is that it allows you to do more testing in less time. It increases productivity and expands how much you can test.
 
-## According to the ISTQB (International Software Testing Qualifications Board), the seven principles of software testing are:
+## According to the ISTQB (International Software Testing Qualifications Board), the seven principles of software testing are
 
-    1. Testing shows the presence of defects
-    2. Exhaustive testing is impossible
-    3. Early testing
-    4. Defect clustering
-    5. Pesticide paradox
-    6. Testing is context dependent
-    7. Absence-of-errors fallacy
+    1. Testing shows the presence of defects - Testing reduces the number of undiscovered defects in software. However, finding and resolving these issues does not make the software or system 100% error-free. The quality assurance and testing teams should always accept this concept and must manage client expectations accordingly.
+    2. Exhaustive testing is impossible - Most inputs and outputs have an infinite number of combinations, 100 percent testing of software from every possible perspective is not possible.
+    3. Early testing - This reduces time and money and avoids the hassle of entire code bits being rewritten later in the lifecycle. The cost to fix a bug increases exponentially as the development life cycle progresses.
+    4. Defect clustering - Segments of the code that are expected to be the most problematic should be tested first, followed by the defects that have been observed.
+    5. Pesticide paradox - Using repetitive tests on a code to get rid of clustering will mean that it will become difficult to detect new defects. 
+    6. Testing is context dependent - Every piece of software being developed is heterogeneous and has its own identity; therefore, different approaches, methodologies, techniques, and types of testing are required for each of them.
+    7. Absence-of-errors fallacy - Even the absence of error fallacy would indicate that finding and fixing the bug would not be helpful for the application if it were impractical and inept at accomplishing the client/user's needs.
 
-## Testing
+## Conclusion
+
+If you apply these seven principles to your testing, you can become more focused and efficient as well as enhance the quality of your overall testing strategy. 
+
+In addition, you might find that when you apply one principle, the other principles may fall into place organically. For instance, testing early in the software development lifecycle can help mitigate the absence-of-errors fallacy because if you test at the requirements level, you can help ensure that the software will meet your user's requirements.
+
+## My Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [Main page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F)
 - [CSS test results by text input](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
+- Text was chacked in free grammar checker.
   
 ### Testing User Stories from the User Experience (UX) Section
 
