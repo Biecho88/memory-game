@@ -97,6 +97,7 @@ function buildTile(emoji) {
 
             if(revealedCount === tileCount) {
                 alert (" You have found them all!! Congratulations! Refresh page or click reset button to play again :)");
+                window.location.replace("https://biecho88.github.io/memory-game/")
             }
 
             return ;
