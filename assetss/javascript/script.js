@@ -14,6 +14,7 @@ const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
 const startButton = document.getElementById("timer");
 const resetButton = document.getElementById("reset");
+const backButton = document.getElementById("back");
 
 //Initial Time
 let seconds = 0;
@@ -134,6 +135,14 @@ startButton.addEventListener("click", () => {
 resetButton.addEventListener("click", (stopGame = () => {
 
     location.reload(buildTile);
+
+})
+);
+
+//Back to the start
+backButton.addEventListener("click", (stopGame = () => {
+
+    window.location.replace("https://biecho88.github.io/memory-game/");
 
 })
 );
