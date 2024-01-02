@@ -97,7 +97,7 @@ function buildTile(emoji) {
             revealedCount += 2 ;
 
             if(revealedCount === tileCount) {
-                alert (" You have found them all!! Congratulations! Refresh page or click reset button to play again :)");
+                alert (" You have found them all!! Congratulations! Press OK to go to Main page.");
                 window.location.replace("https://biecho88.github.io/memory-game/")
             }
 
@@ -142,7 +142,7 @@ resetButton.addEventListener("click", (stopGame = () => {
 //Back to the start
 backButton.addEventListener("click", (stopGame = () => {
 
-    window.location.replace("https://biecho88.github.io/memory-game/");
+    window.location.replace("https://biecho88.github.io/memory-game/")
 
 })
 );
