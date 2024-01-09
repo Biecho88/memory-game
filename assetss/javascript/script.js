@@ -139,10 +139,11 @@ resetButton.addEventListener("click", (stopGame = () => {
 })
 );
 
-//Back to the start
+
+//404 error page as back button dos not have any function
 backButton.addEventListener("click", (stopGame = () => {
 
-    window.location.replace("https://biecho88.github.io/memory-game/")
+    window.location.href = "404.html";
 
 })
 );

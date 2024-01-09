@@ -253,6 +253,10 @@ body {
     .copyrights {
         font-size: x-large;
     }
+
+    .text {
+        font-size: smaller;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -372,6 +376,9 @@ body {
         font-size: small;
         font-weight: 100;
     }
+    .text {
+        font-size: xx-small;
+    }
 }
 
 @media screen and (max-width:280px) {
@@ -407,3 +414,16 @@ body {
         font-size: x-small;
     }
 }
+
+/***********************   404.html styling   ********************************/
+
+.message {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: 100%;
+}
+
+
+
