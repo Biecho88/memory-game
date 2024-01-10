@@ -202,7 +202,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   
 - Time doesn't stop when the game is finished.
 
-- The back button directs the user to nonexisting page (404 error), the user is automatically redirected to the main page after 4 seconds. 
+- The back button directs the user to nonexisting page (404 error), the user is automatically redirected to the main page after 5 seconds.
 
 ## Deployment
 
