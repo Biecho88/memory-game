@@ -63,7 +63,7 @@ This is the website where everyone without exception can relax and spend a few m
 
 ## Manual testing explanation
 
-Manual testing is the process in which quality assurance analysts execute tests one-by-one in an individual manner. The purpose of manual testing is to catch bugs and feature issues before a software application goes live.
+Manual testing is the process in which quality assurance analysts execute tests one by one in an individual manner. The purpose of manual testing is to catch bugs and feature issues before a software application goes live.
 
 ## Automated testing explanation
 
@@ -84,7 +84,7 @@ The biggest pro of automation testing over manual testing is that it allows you 
 ## According to the ISTQB (International Software Testing Qualifications Board), the seven principles of software testing are
 
     1. Testing shows the presence of defects - Testing reduces the number of undiscovered defects in software. However, finding and resolving these issues does not make the software or system 100% error-free. The quality assurance and testing teams should always accept this concept and must manage client expectations accordingly.
-    2. Exhaustive testing is impossible - Most inputs and outputs have an infinite number of combinations, 100 percent testing of software from every possible perspective is not possible.
+    2. Exhaustive testing is impossible - Most inputs and outputs have an infinite number of combinations, and 100 percent testing of software from every possible perspective is not possible.
     3. Early testing - This reduces time and money and avoids the hassle of entire code bits being rewritten later in the lifecycle. The cost to fix a bug increases exponentially as the development life cycle progresses.
     4. Defect clustering - Segments of the code that are expected to be the most problematic should be tested first, followed by the defects that have been observed.
     5. Pesticide paradox - Using repetitive tests on a code to get rid of clustering will mean that it will become difficult to detect new defects. 
@@ -103,7 +103,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [Main page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F)
 - [CSS test results by text input](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbiecho88.github.io%2Fmemory-game%2F#textarea)
-- Text was chacked in free grammar checker.
+- [The text was chacked in the free grammar checker](https://www.grammarly.com/spell-checker)
   
 ### Testing User Stories from the User Experience (UX) Section
 
@@ -149,7 +149,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 2. As a frequent user, I want to check if the game rules changed
 
-            1. The User would be informed in game rules section of any changes made to the game
+            1. The User would be informed in the game rules section of any changes made to the game
 
 3. As a frequent user, I want to beat my records
 
@@ -202,6 +202,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   
 - Time doesn't stop when the game is finished.
 
+- The back button directs the user to nonexisting page (404 error), the user is automatically redirected to the main page after 4 seconds. 
+
 ## Deployment
 
 ### GitHub Pages
@@ -247,7 +249,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures of some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
